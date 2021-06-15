@@ -1,0 +1,16 @@
+.el-button--tool-mini {
+  min-height: 30px !important;
+  border-radius: 0 !important;
+  font-size: 12px !important
+}
+
+.tool-bar-popper {
+  background-color: #fff !important;
+  border-radius: 0 4px 4px 4px !important;
+  width: auto !important;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  border: none !important;
+  .el-scrollbar__view {
+    padding: 0;
+  }
+}

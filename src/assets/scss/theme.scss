@@ -1,0 +1,23 @@
+
+/* 颜色表 */
+// 灰色
+$gray-300: #A0A0A0;
+$gray-800: #444;
+$gray-850: #333;
+$gray-900: #3f3f3c;
+$gray-1000: #2f2f2c;
+// 蓝色
+$blue-400: #0cf;
+$blue-600: #4F80FF;
+
+.el-button--svg-tool {
+  background-color: rgba(255,255,255,0.1) !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  color: #fff !important;
+  &:focus,
+  &:hover {
+    background-color: #fff !important;
+    color: $gray-850 !important;
+  }
+}
